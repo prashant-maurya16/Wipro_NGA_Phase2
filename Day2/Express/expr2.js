@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var cors = require("cors");
 var app = express();
 
-app.use(cors());
+app.use(cors());//enabls us to access the service
 app.use(bodyParser.json());
 let employs = [
           {"empno":1,"name":"Prasanna","basic":88234},
@@ -41,6 +41,6 @@ let employs = [
               'message': "successfully created"
           });
       });
-      app.listen(1113, (req, res) => {
+      app.listen(1118, (req, res) => {
           console.log("Node Js Application Started...");
       })
