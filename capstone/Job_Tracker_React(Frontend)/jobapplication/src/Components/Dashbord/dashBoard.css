@@ -1,0 +1,78 @@
+
+
+/* Hero Section */
+.hero {
+         
+          height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-align: center;
+        }
+        
+        .hero-overlay {
+          background: rgba(0, 0, 0, 0.6);
+          padding: 50px;
+          border-radius: 10px;
+        }
+        
+        /* Search Box */
+        .search-container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .search-input {
+          width: 100%;
+          padding: 12px;
+          border: 2px solid #007bff;
+          border-radius: 30px;
+          font-size: 16px;
+        }
+        
+        .search-icon {
+          position: absolute;
+          right: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+          color: #007bff;
+        }
+        
+        /* Profile Dropdown */
+        .profile-dropdown {
+          position: relative;
+        }
+        
+        .profile-dropdown-menu {
+          position: absolute;
+          right: 0;
+          top: 100%;
+          background: white;
+          border-radius: 5px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          display: none;
+        }
+        
+        .profile-dropdown:hover .profile-dropdown-menu {
+          display: block;
+        }
+        
+        /* Job Listings Carousel */
+        .job-carousel {
+          overflow-x: auto;
+          white-space: nowrap;
+          padding: 20px;
+        }
+        
+        .job-card {
+          display: inline-block;
+          width: 250px;
+          margin-right: 15px;
+          padding: 15px;
+          border-radius: 8px;
+          background: white;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        

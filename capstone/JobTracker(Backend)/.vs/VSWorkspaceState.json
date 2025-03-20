@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Job_Tracker_Application",
+    "\\Job_Tracker_Application\\Job_Tracker_Application",
+    "\\Job_Tracker_Application\\Job_Tracker_Application\\Controllers",
+    "\\Job_Tracker_Application\\Job_Tracker_Application\\Middelware"
+  ],
+  "SelectedNode": "\\Job_Tracker_Application\\Job_Tracker_Application\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}
